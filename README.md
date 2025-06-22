@@ -26,7 +26,7 @@ WhatsApp Agent is a smart messaging assistant built with the OpenAI Agents SDK a
 
 ## Usage
 
-- Run the CLI or UI version to send WhatsApp messages easily.
+- Run the CLI or UI version to easily send WhatsApp messages.
 
 ---
 
