@@ -1,0 +1,21 @@
+[project]
+name = "whats-app-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "M.Huzaifa200", email = "mk26408527@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "chainlit>=2.5.5",
+    "openai-agents>=0.0.19",
+    "pywhatkit>=5.4",
+]
+
+[project.scripts]
+whats-app-agent = "whats_app_agent:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
